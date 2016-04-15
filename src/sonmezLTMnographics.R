@@ -1,6 +1,7 @@
 
 # You may need to change this!
-praatexec<-paste("\"","C:/Program Files/Praat/praat","\"",sep='')
+#praatexec<-paste("\"","C:/Program Files/Praat/praat","\"",sep='')
+praatexec<-"praat"
 
 options(warn=-1)
 

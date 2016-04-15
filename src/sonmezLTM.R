@@ -5,7 +5,8 @@
 # Rscript sonmezLTM.R 60 750 1 wavfile.wav
 
 # You may need to change this!
-praatexec<-paste("\"","C:/Program Files/Praat/praat","\"",sep='')
+#praatexec<-paste("\"","C:/Program Files/Praat/praat","\"",sep='')
+praatexec<-"praat"
 
 options(warn=-1)
 

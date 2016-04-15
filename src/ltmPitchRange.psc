@@ -1,7 +1,9 @@
 
-rscript_exec$="""C:/Program Files/R/R-3.1.0/bin/Rscript"""
-ltm_script$="C:/Users/ling-jfr/dev/ltmPitch/src/sonmezLTMnographics.R"
-#exit You *need* to change rscript_exec$ and ltm_script$ and then comment out this line
+#rscript_exec$="""C:/Program Files/R/R-3.1.0/bin/Rscript"""
+#tm_script$="C:/Users/your_department-you/dev/ltmPitch/src/sonmezLTMnographics.R"
+#rscript_exec$="""Rscript"""
+#ltm_script$="/home/user_name/dev/ltmPitch/src/sonmezLTMnographics.R"
+exit You *need* to change rscript_exec$ and ltm_script$ and then comment out this line
 
 s1=selected("Sound")
 editorType$="Sound"
