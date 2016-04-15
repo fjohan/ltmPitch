@@ -1,0 +1,27 @@
+
+SETUP 
+-----
+
+NOTE: You most likely need to make some modifications of paths.
+
+1. src/sonmezLTM.R should be run from command line with Rscript, e.g., Rscript.exe sonmezLTM.R 60 750 1 ..\data\aesop_00007.wav
+You *need* to change the variable
+	praatexec to where your praat executable is
+
+Given a wav file it produces:
+	an f0 file with floor and ceiling according to the command line call
+	a graph of the distribution
+	a txt file with the suggested floor and ceiling
+	
+NOTE: Currently you need to run this from the same directory as where the file sonmezLTM.R is, but you can access files in other directories.
+
+2. src/ltmPitchRange.psc is a script that should be run from within praat after selecting a sound
+You *need* to change two variables:
+	rscript_exec$ to where your R installation is
+	ltm_script$ to where the file sonmezLTMnographics.R is
+In sonmezLTMnographics.R, you also *need* to change the variable
+	praatexec to where your praat executable is 
+
+It produces:
+	a Pitch object with floor and ceiling estimated from an analysis of the distribution
+	an Editor with floor and ceiling based on the estimate
