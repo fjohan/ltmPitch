@@ -25,3 +25,60 @@ In sonmezLTMnographics.R, you also *need* to change the variable
 It produces:
 	a Pitch object with floor and ceiling estimated from an analysis of the distribution
 	an Editor with floor and ceiling based on the estimate
+
+
+bestLTMparams.R
+***************
+
+helper function for determining which fit to use.
+
+bestLTM.R
+*********
+
+Tries different fitting procedures in order to find one that works (fitting with does not always converge)
+
+getF0.R
+*******
+
+F0 analysis through praat, callable from R
+
+getGuess.R
+**********
+
+helper for guessing initial values (?)
+
+Get_pitch_to_f0file.psc
+***********************
+
+Praat script that does f0 analysis and writes to a file.
+
+guess.R
+*******
+
+Tries to find decent initial values for the fitting process.
+
+ltmPitchRange.psc
+*****************
+
+Praat script, for running from within praat.
+
+robust.R
+********
+
+Functions for robust statistics.
+
+sonmezLTMfon10.R
+****************
+
+For reproducing the results in the 2010 paper. Will not work without the speech material.
+
+sonmezLTMnographics.R
+*********************
+
+Batch processing for many files (?)
+
+sonmezLTM.R
+***********
+
+Rscript executable
+
